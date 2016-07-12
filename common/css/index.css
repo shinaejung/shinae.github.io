@@ -20,8 +20,8 @@ header {
     margin: auto ;
 }
 header .logo{
-    margin: 33px;
-    color: #6fa1ff;
+    margin: 33px 10px 10px 0px;
+    color: #000000;
     font-size: 20px;
     float: left; 
    
@@ -46,7 +46,7 @@ header .menu{
     position: relative;
     height: 300px;
     margin: auto ;
-    background: #9eceff;
+    background: #b1b1b1;
     border-bottom: 2px solid #dedede;
     
     
@@ -89,14 +89,14 @@ header .menu{
 .layout2 .item{
     margin: auto;
     width: 1000px;
-    background: rgb(132, 198, 255);
+    background: rgb(47, 47, 47);
     height: 500px;
     
 }
 
 .bottom{
-    height: 100px;
-    background: rgba(0, 69, 255, 0.75);
+    height: 200px;
+    background: rgb(118, 118, 118);
     margin: 40px 0 0 ;
 }
 
@@ -126,7 +126,7 @@ header .menu{
         display: block;
         position: absolute;
         width: 30px;
-        background: #6298ff;
+        background: #838383;
         height: 3px;
         
     }
@@ -135,7 +135,7 @@ header .menu{
         display: block;
         position: absolute;
         width: 30px;
-        background: #6298ff;
+        background: #838383;
         height: 3px;
         top:7px;
         
@@ -145,7 +145,7 @@ header .menu{
         display: block;
         position: absolute;
         width: 30px;
-        background: #6298ff;
+        background: #838383;
         height: 3px;
         top: -7px;
         
