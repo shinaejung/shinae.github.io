@@ -103,7 +103,7 @@ header .menu{
 
 
 .pc_hidden{display: none}
-@media all and (max-width:860px){
+@media all and (max-width:970px){
     .pc_hidden{display: block}
     .m_hidden{display: none}
     header{
