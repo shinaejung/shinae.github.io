@@ -67,35 +67,75 @@ header .menu{
     font-size: 25px;
     color: white;
 }
-.layout1{
+.title{
+    
+    width: 1000px;
+    margin: auto;
+}
+.par{
+    text-align: center;
+    float: left;
+    width: 500px;
+    height: 100px;
+        -webkit-transform: skew(20deg);
+    margin-top: 20px;
+    background: #aeaee8;    
+}
+.par_menu1{
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+}
+.par_menu2{
+    color: white;
+    font-size: 20px;
+    margin: 40px;
+}
+
+.layout1 {
     width: 1000px;
     height: 80px;
     margin: auto;
-
-      
 }
-.layout1 .item{
-    float: left;
-    margin: 10px;
-}
-.layout1 .item:first-child{
-    margin: 10px 10px 10px 300px;
-}
-
- 
 .layout1 .item .img{
+    float: left;
+    margin: 10px; 
     width: 50px;
 }
+
+.layout2{
+    width: 1000px;
+    margin: auto;
+}
 .layout2 .item{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background: rgb(47, 47, 47);    
+}
+.item2{
+    position: relative;
     margin: auto;
     width: 1000px;
-    background: rgb(47, 47, 47);
-    height: 500px;
-    
+    height: 600px;
+}
+.item2 .item2_text{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 250px;
+   
+}
+.vi{
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 .bottom{
-    height: 200px;
+    height: 100px;
     background: rgb(118, 118, 118);
     margin: 40px 0 0 ;
 }
