@@ -48,16 +48,19 @@ header .menu{
     margin: auto ;
     background: #b1b1b1;
     border-bottom: 2px solid #dedede;
-    
-    
+    overflow: hidden;
 }
 .visual .wrap_text{
    position: absolute;
     top: 40%;
     width: 100%;
     margin: 0;
-    text-align: center;
-    
+    text-align: center;   
+}
+.visual_img{
+    position: absolute;
+    width: 100%;
+    margin:-300px 0 0;
 }
 .wrap_text p{
     font-size: 30px;
@@ -67,6 +70,7 @@ header .menu{
     font-size: 25px;
     color: white;
 }
+
 .title{
     
     width: 1000px;
@@ -174,6 +178,10 @@ header .menu{
     
     .visual{
         width: 100%;
+    }
+    .visual_img{
+        width: 100%;
+        margin:0;
     }
     .title {
         width: 100%;
