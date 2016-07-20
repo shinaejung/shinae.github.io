@@ -176,9 +176,6 @@ header .menu{
         top: -7px;     
     }
     
-    .visual{
-        width: 100%;
-    }
     .visual_img{
         width: 100%;
         margin:0;
@@ -188,6 +185,7 @@ header .menu{
     }
     .title .par{
         width: 100%;
+        margin: 5px 0 5px 0px;
     }
     .layout2{
         width: 100%;
@@ -204,5 +202,6 @@ header .menu{
     
     
 }
+
 
 
