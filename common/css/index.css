@@ -174,10 +174,15 @@ header .menu{
         width: 100%;
     }
     .par{
+        float:none;
         width: 50%;
     }
     .layout2{
+        float:none;
         width: 100%;
+    }
+    .footer{
+        width:100%;
     }
     
     
