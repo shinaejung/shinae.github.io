@@ -34,13 +34,14 @@ header .menu{
    
     float: left; /*메뉴 가로모양*/
     font-size: 15px;
+    
     margin: 0 0 0 30px
 }
 .menu li a{
     display: block;
     line-height: 70px;
     padding: 10px;
-    color: black;
+    color: #b9b9b9;
 }
 .visual{
     position: relative;
@@ -159,6 +160,15 @@ header .menu{
 .layout2{
     width: 1000px;
     margin: auto;
+    
+}
+
+
+    
+.layout2 .middle_text{
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    
 }
 .layout2 .item{
     text-align: center;
@@ -171,10 +181,19 @@ header .menu{
 }
 .layout2 .item2{
     float: left;
-    height: 300px;
-    background: black;
-    width: 1000px; 
-    margin: 10px 0 10px 0;
+    height: 200px;
+    width: 250px; 
+    margin: 10px 0px 10px 0px;
+    overflow: hidden;
+}
+.item2 .big_img{
+   margin: -30px 0px 20px -90px;   
+}
+.item2 .big_img2{
+   margin: -100px 0px 0px -80px;   
+}
+.item2 .big_img3{
+   margin: -00px 0px 0px -500px;   
 }
 
 
