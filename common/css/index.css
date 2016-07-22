@@ -293,6 +293,17 @@ header .menu{
         height: 3px;
         top: -7px;     
     }
+    .visual .btn.btn_left::before{ /*모양*/
+	left:5px;
+	border-width:0 0 1px 1px;
+   
+}
+
+.visual .btn.btn_right::before{
+	right:5px;
+	border-width:1px 1px 0 0;
+    
+}
 
     
     .visual_img{
