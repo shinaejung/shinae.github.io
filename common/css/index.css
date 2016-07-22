@@ -327,8 +327,9 @@ header .menu{
     }
     .m_item2 .big_img{
         float: left;
-        width: 242.5px;
-        height: 150px;   
+        width: 50%;
+        height: 150px; 
+        
     }
 
 
