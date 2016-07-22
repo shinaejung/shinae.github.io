@@ -94,14 +94,14 @@ header .menu{
 }
 .visual .btn.btn_left::before{ /*모양*/
 	left:15px;
-	border-width:0 0 2px 2px;
-    border-radius: 4px;
+	border-width:0 0 1px 1px;
+   
 }
 
 .visual .btn.btn_right::before{
 	right:15px;
-	border-width:2px 2px 0 0;
-    border-radius: 4px;
+	border-width:1px 1px 0 0;
+    
 }
 .visual .step{
     position: absolute;
@@ -262,11 +262,8 @@ header .menu{
         padding: 30px 25px;
         color: white;
         font-weight: 800;
-    }
-    
-    
-    
-    
+    } 
+ 
     .m_menu .btn_menu spen{
         content: '';
         display: block;
@@ -296,12 +293,14 @@ header .menu{
         height: 3px;
         top: -7px;     
     }
-    
+
     
     .visual_img{
         width: 200%;
         margin: 0;
     }
+
+  
     .m_item{
         position: relative;
         height: 200px;
