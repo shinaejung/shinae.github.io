@@ -30,6 +30,12 @@ header .menu{
     float: left;
     padding: 0px 300px 3px 0px;
     }
+a{
+    color: #909090;
+}
+a:hover{
+    color: pink;
+}
 .menu li{
    
     float: left; /*메뉴 가로모양*/
@@ -42,6 +48,9 @@ header .menu{
     line-height: 70px;
     padding: 10px;
     color: #b9b9b9;
+}
+.menu li a:hover{
+    color: pink;
 }
 .visual{
     position: relative;
