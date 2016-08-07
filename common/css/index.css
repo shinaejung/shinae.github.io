@@ -52,7 +52,6 @@ a:hover{
     position: relative;
     height: 300px;
     margin: auto ;
-    border-bottom: 2px solid #dedede;
     overflow: hidden;
 }
 .visual .wrap_text{
@@ -108,7 +107,7 @@ a:hover{
 }
 .visual .step{
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     width: 100%;
     text-align: center;
 }
@@ -162,9 +161,6 @@ a:hover{
     margin: 10px;
 }
 
-
-
-
 .layout2{
     width: 1000px;
     margin: auto;
@@ -172,6 +168,7 @@ a:hover{
 }   
 .layout2 .middle_text{
     width: 100%;
+    height: auto;
     text-align: center;
     margin: 30px 0px 30px 0px;
     
@@ -342,8 +339,14 @@ a:hover{
         font-size: 20px;
     
     }
+    .middle_text h2 p{
+        text-align: center;
+    }
     .layout2 {
         width: 100%;
+    }
+    .item2{
+        width: 50%;
     }
  
 }
