@@ -23,8 +23,7 @@ header .logo{
     margin: 33px 10px 10px 10px;
     color: #000000;
     font-size: 20px;
-    float: left; 
-   
+    float: left;   
 }
 header .menu{
     float: left;
@@ -37,10 +36,8 @@ a:hover{
     color: pink;
 }
 .menu li{
-   
     float: left; /*메뉴 가로모양*/
     font-size: 15px;
-    
     margin: 0 0 0 30px
 }
 .menu li a{
@@ -186,7 +183,12 @@ a:hover{
     height: 500px;
 }
 .layout2 .item_text{
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.layout2 .item_text img{
+    width: 100%;
+    margin-bottom: 20px;
 }
 .layout2 .item2{
     float: left;
@@ -318,6 +320,7 @@ a:hover{
         height: 3px;
         top: -7px;     
     }
+
     .visual .btn{
         margin:-50px 10px 0px 0px;
         
