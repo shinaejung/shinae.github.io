@@ -51,7 +51,6 @@ a:hover{
 .visual{
     position: relative;
     height: 300px;
-    margin: auto ;
     overflow: hidden;
 }
 .visual .wrap_text{
@@ -64,6 +63,7 @@ a:hover{
 .visual_img{
     position: absolute;
     width: 100%;
+    height: auto;
     margin:-300px 0 0;
 }
 .visual .btn{
@@ -186,12 +186,15 @@ a:hover{
 .layout2 .item_text img{
     width: 100%;
 }
+.layout2 .middle_text{
+    margin: 10px 0 10px 0;
+}
 
 .layout2 .item2{
     float: left;
     height: 200px;
     width: 250px; 
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
     overflow: hidden;
 }
 .item2 .big_img{
@@ -349,10 +352,13 @@ a:hover{
     }
     .layout2 {
         width: 100%;
+        height: auto;
     }
-    .item2{
-        width: 50%;
+    .layout2 .item2{
+        width: 100%;
     }
+  
+   
  
 }
 
