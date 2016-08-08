@@ -226,6 +226,9 @@ a:hover{
         height: 100%;
         margin: 0;
     }
+    .wrap_text p{width: 100%;}
+    .wrap_text h2{width: 100%;}
+    
     .content-wrap {
         width: 100%;
         height: auto;
