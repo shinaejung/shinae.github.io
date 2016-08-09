@@ -48,6 +48,9 @@ a:hover{
 .menu li a:hover{
     color: pink;
 }
+
+
+.body_container{margin: 40px;}
 .visual{
     position: relative;
     height: 300px;
