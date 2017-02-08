@@ -1,2 +1,2 @@
-# shinaejung.github.com
-github pages
+# shinaejung.github.io
+
